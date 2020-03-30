@@ -1,8 +1,8 @@
 # DNS to DNS over TLS proxy
 
-## Implementation
+## What is this?
+It's a proxy which accepts DNS requests and proxy it to Cloudflare DNS server running with DNS over TLS implementation.
 
-Listens for DNS queries on port 8888/TCP and proxies them to Cloudfare's 1.0.0.1 nameserver through DNS over TLS, then sends the response back to the client.
 
 ## Installation
 
